@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 383760884920403162}
   - component: {fileID: 2857272417600794767}
   - component: {fileID: 861048228020577149}
-  - component: {fileID: 6883833240520290934}
   - component: {fileID: 8220265202747643796}
-  - component: {fileID: 6394438081407833930}
+  - component: {fileID: 2572593220177260398}
+  - component: {fileID: 5245909458337792049}
   m_Layer: 0
   m_Name: Animal_Moose_01
   m_TagString: Untagged
@@ -80,18 +80,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 15
---- !u!114 &6883833240520290934
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 567202017621919413}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c92cb67046535254ba51da79b6d5791f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &8220265202747643796
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -113,7 +101,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.12881136, y: 0.37120637, z: 0.41508478}
   m_Center: {x: -0.002035374, y: 0.18235047, z: 0.050234754}
---- !u!114 &6394438081407833930
+--- !u!114 &2572593220177260398
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -122,7 +110,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 567202017621919413}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad97121b0cbf7db4fa1b307f55815814, type: 3}
+  m_Script: {fileID: 11500000, guid: 81e62e9a8a22fac478a927ce940e28f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5245909458337792049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 567202017621919413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c52ee72091692143869a36cdefe1fd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &804383348796623088

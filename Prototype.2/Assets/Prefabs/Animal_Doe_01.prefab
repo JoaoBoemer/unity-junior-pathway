@@ -861,9 +861,9 @@ GameObject:
   - component: {fileID: 8834988454809427710}
   - component: {fileID: 3228980842501814612}
   - component: {fileID: 8981003597876014708}
-  - component: {fileID: 7291147143714484919}
   - component: {fileID: 7199442274221134841}
-  - component: {fileID: 378647305644193985}
+  - component: {fileID: 93410957707182450}
+  - component: {fileID: 9071302516207125574}
   m_Layer: 0
   m_Name: Animal_Doe_01
   m_TagString: Untagged
@@ -930,18 +930,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
---- !u!114 &7291147143714484919
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8401587138627309818}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c92cb67046535254ba51da79b6d5791f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &7199442274221134841
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -963,7 +951,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.109743595, y: 0.3735926, z: 0.38967952}
   m_Center: {x: -0.000022935868, y: 0.17714511, z: 0.046000767}
---- !u!114 &378647305644193985
+--- !u!114 &93410957707182450
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -972,6 +960,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 8401587138627309818}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad97121b0cbf7db4fa1b307f55815814, type: 3}
+  m_Script: {fileID: 11500000, guid: 81e62e9a8a22fac478a927ce940e28f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &9071302516207125574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8401587138627309818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c52ee72091692143869a36cdefe1fd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
